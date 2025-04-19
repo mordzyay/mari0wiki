@@ -1,2 +1,2 @@
-# mordzyay.mari0wiki.io
-Mari0 wiki
+# Mari0 Wiki
+documentation of Mari0 stuff
