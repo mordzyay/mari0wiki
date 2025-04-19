@@ -78,6 +78,28 @@
         <th scope="row">"spawnOffsetY":</th>
         <td>Spawn offset on Y axis <notice>(1 is 16 pixels/1 tile)</notice></td>
       </tr>
+      <tr>
+        <th scope="row">"movement":</th>
+        <td scope="row">How will it move? <notice>(string)</notice></th>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td scope="row">"truffleshuffle" - Enemy moves left and right (think Goombas) 
+          <br>"truffleshuffleSpeed": movement speed <notice>(1 is 16 pixels/1 tile)</notice>
+          <br>"truffleshuffleAcceleration": movement acceleration <notice>(1 is 16 pixels/1 tile)</notice>
+          <br>"turnAroundOnCliff": Think red Koopas <notice>(true, false)</notice>
+          <br>
+          <img src="images/truffleshuffle.gif"></td>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td scope="row">"piston" - Goes in and out (think Piranha Plant) 
+          <br>"pistonDistX": horizontal dist in X <notice>(1 is 16 pixels/1 tile)</notice>
+          <br>"pistonDistY": vertical dist in Y <notice>(1 is 16 pixels/1 tile)</notice>
+          <br><notice>unfinished</notice>
+          <br>
+          <img src="images/truffleshuffle.gif"></td>
+      </tr>
     </tbody>
   </table>
 
@@ -106,7 +128,7 @@
       </tr>
       <tr>
         <th scope="row">"animationType":</th>
-        <td scope="row">What animation method to use? <notice>(string)</notice></th>
+        <td scope="row">What animation method to use? <notice>(string)</notice></td>
       </tr>
       <tr>
         <th scope="row"></th>
@@ -114,7 +136,7 @@
           <br>"animationSpeed": time between mirroring
           <br>"quadNo": quad number to use
           <br>
-          <img src="images/mirrorAnim.gif"></th>
+          <img src="images/mirrorAnim.gif"></td>
       </tr>
       <tr>
         <th scope="row"></th>
@@ -123,14 +145,14 @@
           <br>"animationFrames": number of frames
           <br>"animationSpeed": frame duration in secs.
           <br>
-          <img src="images/frameAnim.gif"></th>
+          <img src="images/frameAnim.gif"></td>
       </tr>
       <tr>
         <th scope="row"></th>
         <td scope="row">"none" - If the enemy is static (think Podaboos) 
           <br>"quadNo": quad number to use
           <br>
-          <img src="images/noAnim.png"></th>
+          <img src="images/noAnim.png"></td>
       </tr>
     </tbody>
   </table>
