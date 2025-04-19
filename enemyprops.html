@@ -10,6 +10,9 @@
   
   <p></p>
   <a href="index.html">Main Page</a>
+
+  <p>REMINDER: This documentation is based on the Alesans Entities mod</p>
+
   <p></p>
   <sizer font-size: 50px>Required: </sizer>
 
@@ -68,16 +71,66 @@
         <td>Base off of another custom enemy <notice>This must be outside of the json at the top!</notice></td>
       </tr>
       <tr>
-        <th scope="row">"noSpriteSets":</th>
-        <td>Disables spritesets</td>
-      </tr>
-      <tr>
         <th scope="row">"spawnOffsetX":</th>
         <td>Spawn offset on X axis <notice>(1 is 16 pixels/1 tile)</notice></td>
       </tr>
       <tr>
         <th scope="row">"spawnOffsetY":</th>
         <td>Spawn offset on Y axis <notice>(1 is 16 pixels/1 tile)</notice></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p></p>
+  <sizer font-size: 50px>Graphics: </sizer>
+
+  <table class="tbcenter">
+    <thead>
+      <tr>
+        <th scope="col">Property</th>
+        <th scope="col">Description/Function</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">"noSpriteSets":</th>
+        <td>Disables spritesets <notice>(true, false)</notice></td>
+      </tr>
+      <tr>
+        <th scope="row">"customScissor":</th>
+        <td>Only draw part of an enemy <notice>(x, y, width, height)</notice></td>
+      </tr>
+      <tr>
+        <th scope="row">"invertedScissor":</th>
+        <td>Dont draw in that area <notice>(true, false)</notice></td>
+      </tr>
+      <tr>
+        <th scope="row">"animationType":</th>
+        <td scope="row">What animation method to use? <notice>(string)</notice></th>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td scope="row">"mirror" - If the enemy is mirrored (think Goombas) 
+          <br>"animationSpeed": time between mirroring
+          <br>"quadNo": quad number to use
+          <br>
+          <img src="images/mirrorAnim.gif"></th>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td scope="row">"frames" - If the enemy uses frames (think Koopas)
+          <br>"animationStart": first quad 
+          <br>"animationFrames": number of frames
+          <br>"animationSpeed": frame duration in secs.
+          <br>
+          <img src="images/frameAnim.gif"></th>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td scope="row">"none" - If the enemy is static (think Podaboos) 
+          <br>"quadNo": quad number to use
+          <br>
+          <img src="images/noAnim.png"></th>
       </tr>
     </tbody>
   </table>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Super Mario Bros Title Font V2';
-  src: url('../fonts/Mario.ttf') format("ttf"); /*kill me*/
+  src: url('fonts/Mario.ttf') format("opentype"); /*kill me*/
 }
 
 marioFont {
