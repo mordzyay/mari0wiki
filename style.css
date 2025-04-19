@@ -1,6 +1,6 @@
 marioFont {
   font-family: 'Super Mario Bros Title Font V2';
-  src: url("/fonts/Mario.ttf");
+  src: url("../fonts/Mario.ttf");
   font-size: 80px;
 }
 
